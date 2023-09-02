@@ -1,11 +1,10 @@
 *{
     margin: 0px;
     padding: 0px ;
-    box-sizing: border-box;
 }
 
 body{
-    font-family: courier new-times-roman san-sariff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header{
@@ -13,32 +12,30 @@ header{
    justify-content: space-between;
    width: 80%;
    margin: auto;
-   margin-top: 10px;
+   margin-top: 15px;
 }
 
 nav{
     display: flex;
-}
-#nav{
-    margin-right: 10px;
+   
 }
 ul.nav{
     display: flex;
     list-style-type: none;
-    border-right: 1px solid gray;
-    padding-right: 30px;
-    column-gap: 30px;
+    border-right: 1px solid black;
+    padding-right: 25px;
+    column-gap: 25px;
     padding-top: 10px;
 }
 
-.icontext{
+.Assistance{
     display: flex;
-    column-gap: 30px;
-    padding-left: 30px;
+    column-gap: 10px;
+    padding-left: 25px;
 }
 
 main{
-    height: 90vh;
+    height: 80vh;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -46,7 +43,7 @@ main{
     margin: auto;
 }
 
-.topleft{
+.top{
     height: 70vh;
     width: 100%;
     display: flex;
@@ -71,8 +68,8 @@ button{
     background-color: #FF6433;
     border-radius: 12px;
     color: #ffffff;
-    padding: 20px 30px;
-    margin-top: 40px;
+    padding: 15px 30px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
@@ -81,7 +78,7 @@ button{
     column-gap: 10px;
 }
 
-.period-icon p{
+.greyit{
     color: gray;
 }
 
@@ -90,7 +87,7 @@ button{
 }
 
 .right-item{
-    background-image: url('https://i.ibb.co/BcYx9bn/Image.png');
+    background-image: url('./Image.png');
     background-position: center;
     background-size: cover;
     width: 50%;
@@ -100,69 +97,50 @@ button{
 
 .first-img{
     position: absolute;
-    left: -120px;
+    left: -90px;
 }
 
 .second-img{
     position: absolute;
-    top: 250px;
-    left: 250px;
+    top: 330px;
+    left: 325px;
 }
 
 section{
-    height: 90vh;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    background: #292a2b;
-    padding-left:10% ;
-    padding-right: 10%;
+    background-color: rgb(197, 190, 190);
 }
- ul{
-    list-style-type: none;
- }
- #midlist{
-    margin-top: 20px;
- }
-
-.midleft{
+.middle{
     height: 70vh;
-    width: 100%;
+    width: 80%;
     display: flex;
-    
-  
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+}
+.mid{
+    height: 60vh;
+    width: 100%; 
+    margin: auto;
+    display: flex;
+}
+.midleft-item{
+    display: grid;
+    width: 50%;
 }
 
 .midright{
-    height: 70vh;
-    width: 100%;
-    display: flex;
+    width: 50%;
+    display: grid;
     
 }
 input{
     font-size: 100%;
     color: #0f0f0f;
     background-color: white;
-    padding: 5px;
-    width: 95%;
-    height: 2vh;
+    padding: 10px 15px;
+    width: 97%;
     border-radius: 3px;
 }
-.last{
-    padding: 5vh 5% 5vh 5%;
-    height: 30vh;
-    width: 100%;
-    display:flex;
-    direction:column;
-}
-
-.buttleft{
-    height: 100%;
-    width: 50%;  
-}
-.buttright{
-    height: 100%;
-    width: 50%;  
-} 
