@@ -35,32 +35,40 @@ ul.nav{
 }
 
 main{
-    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.top{
+    margin-top: 5%;
+    height: 100%;
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    padding-bottom: 5%;
 }
-
-.top{
-    height: 70vh;
+.inner-top{
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6%;
 }
 
 .left-item{
-    width: 50%;
-    height: 70vh;
-    display: flex;
+   
+    display: grid;
     justify-content: left;
     align-items: center;
 }
 
-.h1-text{
-    font-size: 50px;
-    line-height: 50px;
-    color: black;
+.squizee{
+    width: 47%;
+    height: 70%;
+    margin:10% 0% ;
 }
 
 button{
@@ -68,6 +76,7 @@ button{
     background-color: #FF6433;
     border-radius: 12px;
     color: #ffffff;
+    width: 40%;
     padding: 15px 30px;
     margin-top: 30px;
     margin-bottom: 50px;
@@ -75,7 +84,7 @@ button{
 
 .period-icon{
     display: flex;
-    column-gap: 10px;
+    column-gap: 1%;
 }
 
 .greyit{
@@ -87,12 +96,11 @@ button{
 }
 
 .right-item{
-    background-image: url('./Image.png');
+    background-image: url(./Image.png);
     background-position: center;
     background-size: cover;
-    width: 50%;
-    height: 70vh;
-    position: relative;
+    width: 47%;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
 }
@@ -102,10 +110,10 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 35%;
     height: 8vh;
     padding: 8px;
-    position: absolute;
+    position: relative;
     left: -5%;
     margin-top: 10%;
 }
@@ -140,15 +148,14 @@ button{
 .box-down{
     background-color: #ffffff44;
     border-radius: 37px;
-    display: flex;
-    align-items: center;
     justify-content: center;
     width: 35%;
     height: 8vh;
     padding: 8px;
-    position: absolute;
-    left: 67%;
-    margin-top: 70%;
+    position: relative;
+    left: 30%;
+    margin-top: 65%;
+    margin-bottom: 15%;
 }
 .rating{
     width: 28%;
@@ -163,35 +170,38 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(197, 190, 190);
+    height: 20%;
+    background: #E2E6E9;
 }
 .middle{
-    height: 70vh;
+    height: 100%;
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto; 
+    padding: 5% 0%;
 }
 .mid{
-    height: 60vh;
-    width: 100%; 
-    margin: auto;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6%;
 }
 .midleft-item{
     display: grid;
-    width: 50%;
+    width: 47%;
+    height: 80%; 
 }
 .midright{
-    width: 50%;
-    display: grid;   
+    width: 47%;
+    display: grid; 
+    height: 70%; 
 }
 input{
     font-size: 100%;
     color: #0f0f0f;
     background-color: white;
-    padding: 10px 15px;
-    width: 97%;
+    padding: 10px 0px;
+    width: 100%;
     border-radius: 3px;
 }
