@@ -2,22 +2,25 @@
     margin: 0px;
     padding: 0px ;
 }
-
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 header{
+   height: 40px;
+   width: 100%; 
    display: flex;
-   justify-content: space-between;
-   width: 80%;
-   margin: auto;
-   margin-top: 15px;
+   justify-content: center;
+   align-items: flex-end;
 }
-
+.header-div{
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
 nav{
     display: flex;
-   
+   align-items: flex-end;
 }
 ul.nav{
     display: flex;
@@ -25,76 +28,82 @@ ul.nav{
     border-right: 1px solid black;
     padding-right: 25px;
     column-gap: 25px;
-    padding-top: 10px;
+    height: 100%;
 }
-
 .Assistance{
     display: flex;
     column-gap: 10px;
     padding-left: 25px;
-}
-
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20%;
-}
-
-.top{
-    margin-top: 5%;
     height: 100%;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 5%;
 }
-.inner-top{
+div>p{
+    line-height: 15px;
+}
+.fa-solid {
+    border: none;
+    color: white;
+    
+}
+.ic{
+    
+    background: #5fba99;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+.top{
+    height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    padding-top: 35px;
+}
+.inner-top{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     gap: 6%;
+    height: 90%;
 }
-
 .left-item{
-   
     display: grid;
-    justify-content: left;
-    align-items: center;
+    gap: 35px;
+    height: 100%
 }
-
 .squizee{
     width: 47%;
     height: 70%;
-    margin:10% 0% ;
+    margin:5% 0% ;
 }
-
+.h1-text{
+    font-size: 48px;
+    line-height: 49px;
+}
 button{
     border: 1px solid #FF6433;
     background-color: #FF6433;
     border-radius: 12px;
     color: #ffffff;
-    width: 40%;
+    width: 203px;
+    height: 50px;
     padding: 15px 30px;
-    margin-top: 30px;
-    margin-bottom: 50px;
 }
-
 .period-icon{
     display: flex;
     column-gap: 1%;
+    align-items: center;
 }
-
 .greyit{
     color: gray;
 }
-
 .period-icon h4 {
     color: black;
 }
-
 .right-item{
     background-image: url(./Image.png);
     background-position: center;
@@ -103,16 +112,16 @@ button{
     height: 100%;
     display: flex;
     justify-content: flex-start;
+
 }
 .box-up{
-    background-color: #ffffff44;
-    border-radius: 37px;
+    background-color: #faf4f238;
+    border-radius: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35%;
-    height: 8vh;
-    padding: 8px;
+    width: 180px;
+    height: 65px;
     position: relative;
     left: -5%;
     margin-top: 10%;
@@ -122,66 +131,66 @@ button{
     display: flex;
     align-items: center;
     width: 90%;
-    height: 80%;
-    padding: 8px;
+    height: 50px;
     border-radius: 35px;
 }
 .time{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    width: 28%;
-    height: 100%;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
     background-color: #5fba99;
-    border-radius: 25px;
+    border-radius: 50%;
     margin-right: 6px;
-    padding: 2px;
+    margin-left: 6px;
+    color: aliceblue
 }
 .time>h4{
-    color: aliceblue;
-    font-size: 20px;
+    font-size: 15px;
 }
 .time>p{
-    color: aliceblue;
+   ;
     font-size: 10px;
 }
 .box-down{
-    background-color: #ffffff44;
-    border-radius: 37px;
+    background-color: #faf4f238;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    width: 35%;
-    height: 8vh;
-    padding: 8px;
-    position: relative;
-    left: 30%;
+    width: 190px;
+    height: 65px;
+    left: 31%;
     margin-top: 65%;
-    margin-bottom: 15%;
+    position: relative;
 }
 .rating{
-    width: 28%;
-    height: 100%;
-    margin-right: 6px;
-    margin-left:8px ;
-}
-.rating>p{
+    margin-right: 10px;
+    margin-left: 10px;
     color: gray;
 }
-section{
+.service1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 30px;
+    border-radius: 35px;
+    padding: 10px;; 
+}
+.first-section{
+    height: 400px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 20%;
-    background: #E2E6E9;
+    align-items: flex-start;
+    padding: 50px 0px;
+    background: #E2E6E9
 }
-.middle{
-    height: 100%;
+.inside{
     width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5% 0%;
-}
-.mid{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -191,17 +200,98 @@ section{
     display: grid;
     width: 47%;
     height: 80%; 
+    gap: 25px;
 }
 .midright{
     width: 47%;
     display: grid; 
     height: 70%; 
+    gap: 15px;
 }
 input{
     font-size: 100%;
     color: #0f0f0f;
     background-color: white;
-    padding: 10px 0px;
+    padding: 10px 10px;
     width: 100%;
     border-radius: 3px;
+    border: none;
+    margin: 2px 0px;
+}
+.second-section{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 75px 0px;
+    background-color: #ffffff;
+}
+.left-2{
+    margin-top: 30px;
+    display: grid;
+    width: 47%;
+    height: 80%;
+    gap: 15px;
+}
+.left-2>p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.right-2{
+display: grid;
+gap: 15px;
+width: 47%;
+}
+.context{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 0px 30px;
+}
+.one>p {
+    border-left: 2px dotted #FF6433;
+    padding-left: 35px;
+    margin-left: 45px;
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+.third-section{
+   height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 75px 0px;
+    background: #F2F2F2;
+}
+.sect-3{
+    width: 80%;
+    display: grid;
+}
+.offer-text{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.row-1 {
+    display: flex;
+
+}
+.row-2{
+    display: flex;
+}
+ .row-1>div{
+    width: 25%;
+    height: 150px;
+    border: 1px solid #5fba99;
+    margin: 1px;
+}
+.row-2>div{
+    width: 25%;
+    height: 150px;
+    border: 1px solid #5fba99;
+    margin: 1px;
 }
