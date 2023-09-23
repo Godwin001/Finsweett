@@ -408,7 +408,7 @@ span{
 
 /* mobile styling*/
 
-@media only screen and  (max-width: 400px) {
+@media only screen and  (max-width: 425px) {
     *{ 
        font-size: 14px;
     }
@@ -427,7 +427,6 @@ span{
         align-items: flex-start;
         flex-direction: column;
         justify-content: flex-start;
-       background-color: #661CE7;
     }
     .h1-text{
         font-size: 25px;
@@ -440,7 +439,6 @@ span{
         justify-content: center;
        font-family: 'Playfair Display', serif;
        flex-direction: column;
-       background-color: #FF6433;
     }
     ul.nav{
         display: flex;
@@ -584,7 +582,6 @@ span{
         height: 500px;
     }
     .child{
-        background-color: #5fba99;
         height: 90%;
         width: 90%;
         flex-direction: column;
