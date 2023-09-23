@@ -481,7 +481,6 @@ span{
         line-height: normal;
     }
     .icon-text>div>p {
-        background-color: #d33131;
         width: 80%;
         border-left: 2px dotted red;
         padding-left: 5%;
@@ -552,7 +551,6 @@ span{
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
-        background-color: #d33131;
     }
     #fifthc{
         gap: 10px;
