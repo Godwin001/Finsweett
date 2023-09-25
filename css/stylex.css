@@ -407,11 +407,11 @@ span{
 /* end-top-img spec styling*/
 
 /* mobile styling*/
-
 @media only screen and  (max-width: 425px) {
     *{ 
        font-size: 14px;
     }
+    /*header styling*/
     .header{
         height: 100px;
         width: 100%; 
@@ -423,7 +423,6 @@ span{
      .header-div{
         height: 90%;
         width: 90%;
-        display: flex;
         align-items: flex-start;
         flex-direction: column;
         justify-content: flex-start;
@@ -445,7 +444,7 @@ span{
         list-style-type: none;
         border-right: none;
         border-bottom: 1px solid red;
-        column-gap: 10px;
+        column-gap: 15px;
         width: 100%;
         padding-bottom: 5px;
         padding-right: 0px;
@@ -457,20 +456,67 @@ span{
         width: 25px;
         height: 25px;
     }
+    /*end header*/
 
-    /*spec*/
+    /*first sect*/
+    #firstp{
+        align-items: flex-start;
+    }
+    #firstl{
+        height: 30%;
+        margin: 0px 0px 20px 0px;
+    }
+    .context>div>h4, .context>div>p{
+        font-size: 16px;
+    }
+    .right-itemup{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+     /*second sect*/
     #secondl{
         height: 100%;
         margin: 0% 0%;
         gap: 5px;
     }
-    #firstl{
-        height: 30%;
+    .context>img{
+        height: 20px;
+        width: 20px;
     }
-    .right-itemup{
-        height: 70%;
-        width: 100%;
+    .context{
+        display: flex;
+        justify-content: flex-start;
+        gap: 5px;
+        padding: 0px 0px;
     }
+    .icon-text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .context>h4{
+        font-size: 15px;
+    }
+    .icon-text>p{
+        position: relative;
+        left: 0px;
+    }
+    #secondr>h1{
+        width:100%;
+        font-size: 20px;
+    }
+    input{
+        padding: 5px 5px;
+        width: 90%;
+        margin: 2px 0px;
+    }
+
+    /*third sect*/
     .icon-text>img{
         height: 15px;
         width: 15px;
@@ -484,33 +530,21 @@ span{
         width: 80%;
         border-left: 2px dotted red;
         padding-left: 5%;
-        margin-left: 0%;
-        font-size: 12px;
+        margin-left: 2%;
+        font-size: 14px;
         line-height: normal;
     }
 
-
-
-
-
-    .context>img{
-        height: 20px;
-        width: 20px;
+    /*fourth sect*/
+    #fourthp{
+        height: auto;
     }
-    #hide{
-        display: none;
-    }
-    input{
-        padding: 5px 5px;
-        width: 90%;
-        margin: 2px 0px;
-    }
-    #secondr>h1{
-        width: 150px;
+    .offer-text>p, .offer-text>h1{
+        font-size: larger;
     }
     .icon-row{ 
         width: 100%;
-        height: 400px;
+        height: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -518,7 +552,7 @@ span{
     }
     .icon-row>div{
         width: 100px;
-        height: 20%;
+        height: 70px;
         margin: 1px;
         display: flex;
         background: #925959;
@@ -527,6 +561,7 @@ span{
     }
     .learn-about-us{
         margin-bottom: 20px;
+        justify-content: center;
     }
     .front-box {
         height: 100%;
@@ -534,6 +569,12 @@ span{
         position: relative;
         left: 0px;
         padding: 0px 20px;
+    }
+    #black-bot{
+        color: #ffffff;
+        width: 100%;
+        height: 35x;
+        padding: 0px 10px;
     }
     span{
         height: 200px;
@@ -546,27 +587,27 @@ span{
     .last-row4{
         margin-top: 5px;
         height: 50px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         margin-bottom: 20px;
     }
+
+    /* fifth sect*/
+    #fifthp{
+        height: auto;
+    }
     #fifthc{
-        gap: 10px;
+        gap: 5px;
     }
     #fifthc>h1{
         font-size: 14px;
     }
     #Brands{
-    height: 100px;
-    width: 100%;
-    display: flex;
-    gap: 5px;
+        height: auto;
+        margin-bottom: 0px;
+        gap: 5px;
     }
     #Brands>div{
-        width: 80px;
-        height: 50%;
+        width: 100px;
+        height: 50px;
         margin: 1px;
         display: flex;
         flex-direction: column;
@@ -577,25 +618,19 @@ span{
 
     /* universal*/
     .parent{
-        height: 500px;
+        height: auto;
+        padding: 20px 0px;
     }
     .child{
-        height: 90%;
+        height: 100%;
         width: 90%;
         flex-direction: column;
     }
-    .left-item{
-        gap: 5px;
+    .left-item, .right-item{
+        gap: 10px;
         width: 100%;
         height: 50%;
     }
-    .right-item{
-        gap: 5px;
-        width: 100%;
-        height: 50%;
-    }
-
-    
     button{
         border: 1px solid #FF6433;
         background-color: #FF6433;
@@ -605,45 +640,13 @@ span{
         height: 30px;
         padding: 5px;
     }
-    #black-bot{
-        color: #ffffff;
-        width: 100%;
-        height: 35x;
-        padding: 0px 10px;
-    }
-    .context{
-        display: flex;
-        justify-content: flex-start;
-        gap: 5px;
-        padding: 0px 0px;
-    }
-    .icon-text{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 3px;
-    }
-    .icon-text>p{
-        position: relative;
-        left: 0px;
-    }
+    /* end-universal*/
 
-
-     /* end universal*/
-     .context>p{
-        font-size: 8px;
-     }
-    .context>div>h4{
-        font-size: 10px;
-    }
-    .context>h4{
-        font-size: 12px;
-    }
-    .box-up{
-        width: 100px;
+     /*rating& working hr @universal*/
+    .box-up, .box-down{
+        width: 120px;
         height: 35px;
-        left: -10%;
-        margin-top: 15%;
+        left: 0%;
         border-radius: 25px;
     }
     .service{
@@ -663,14 +666,6 @@ span{
     .time>p{
         font-size: 5px;
     }
-    .box-down{
-        border-radius: 25px;
-        width: 120px;
-        height: 35px;
-        left: 5%;
-        margin-top: 95%;
-        position: relative;
-    }
     .rating{
         margin-right: 5px;
         margin-left: 5px;
@@ -688,13 +683,12 @@ span{
     }
 
 }
-
 /* end mobile styling*/
 
 
-
 /* tablet styling*/
-@media only screen and (min-width:401px) and (max-width: 800px) {
+@media only screen and (min-width:426px) and (max-width: 850px) {
+    /*header */
      .header{
         height: 100px;
         width: 100%; 
@@ -711,15 +705,14 @@ span{
         align-items: flex-start;
         flex-direction: column;
         justify-content: flex-start;
-       background-color: #f6f3fc;
     }
     
-    /* universal +*/
+    /* universal */
     .parent{
-        height: 400px;
+        height: auto;
+        padding: 40px 0px;
     }
     .child{
-        background-color: #5fba99;
         height: 90%;
     }
     .right-item{
@@ -737,16 +730,62 @@ span{
         height: 40px;
         padding: 5px;
     }
-    
+    h1{
+        font-size: 20px;
+    }
+
+    /* first sect */
+    #firstp{
+        height: 600px;
+        padding: 0px 0px;
+    }
+    .firstc{
+        position: relative;
+    }
+    #firstl{
+        width: 100%;
+        position: absolute;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .ipad {
+        font-size: 42px;
+        text-align: center;
+   }
+   .context>div>h4, .context>div>p{
+       font-size: 20px;
+    }
+    .right-itemup{
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        background-position: inherit;
+    }
+
+    /* second sect */
+    #secondl{
+        margin: 0%;
+    }
+    .h1-text{
+        font-size: 32px;
+    }
+    .context>h4{
+        font-size: 17px;
+    }
+    #secondr>h1{
+        width: 100%;
+    }
+
+    /* third sect */
     input{
         padding: 5px 5px;
         width: 95%;
         margin: 2px 0px;
         height: 20px;
     }
-
-
-   
     .context{
         display: flex;
         justify-content: flex-start;
@@ -763,30 +802,6 @@ span{
         position: relative;
         left: 0px;
     }
-
-
-     /* end universal*/
-
-      #black-bot{
-        color: #ffffff;
-        width: 100%;
-        height: 30px;
-        padding: 0px 10px;
-    }
-
-     .h1-text {
-    font-size: 38px;
-}
-     .context>p{
-        font-size: 8px;
-     }
-    .context>div>h4{
-        font-size: 10px;
-    }
-    .context>h4{
-        font-size: 12px;
-    }
-
      .icon-text>img{
         height: 15px;
         width: 15px;
@@ -797,36 +812,29 @@ span{
         line-height: normal;
     }
     .icon-text>div>p {
-        background-color: #d33131;
         width: 80%;
-        border-left: 2px dotted red;
         padding-left: 5%;
         margin-left: 6%;
-        font-size: 12px;
+        font-size: 14px;
         line-height: normal;
     }
 
 
-
-
-
-    #hide{
-        display: none;
-    }
-    #secondr>h1{
-        width: 100%;
+    /* fourth sect */
+    #fourthp{
+        height: auto;
     }
     .icon-row{ 
         width: 100%;
-        height: 400px;
+        height: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin-bottom: 15px;
     }
     .icon-row>div{
-        width: 100px;
-        height: 20%;
+        width: 150px;
+        height: 80px;
         margin: 1px;
         display: flex;
         background: #925959;
@@ -836,6 +844,14 @@ span{
     .learn-about-us{
         margin-bottom: 20px;
     }
+    span{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .third-section-image1 {
+        display: flex;
+        justify-content: flex-end;
+    }
     .front-box {
         height: 100%;
         width: 50%;
@@ -843,13 +859,11 @@ span{
         left: 0px;
         padding: 0px 20px;
     }
-    span{
-        height: 200px;
-        margin-bottom: 10px;
-    }
-    .third-section-image1 {
-    display: flex;
-    justify-content: flex-end;
+    #black-bot{
+        color: #ffffff;
+        width: 100%;
+        height: 30px;
+        padding: 0px 10px;
     }
     .last-row4{
         margin-top: 5px;
@@ -858,9 +872,9 @@ span{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 20px;
-        background-color: #d33131;
     }
+
+    /* fifth sect */
     #fifthc{
         gap: 10px;
     }
@@ -870,7 +884,6 @@ span{
     #Brands{
     height: 100px;
     width: 100%;
-    display: flex;
     gap: 5px;
     }
     #Brands>div{
@@ -884,14 +897,12 @@ span{
         align-items: center;
     }
 
-
-
     /* right-imgup*/
-    .box-up{
-        width: 100px;
+    .box-up, .box-down{
+        width: 120px;
         height: 35px;
         left: 0%;
-        margin-top: 25%;
+        margin-top: 0%;
         border-radius: 25px;
     }
     .service{
@@ -911,13 +922,6 @@ span{
     .time>p{
         font-size: 5px;
     }
-    .box-down{
-        border-radius: 25px;
-        width: 120px;
-        height: 37px;
-        margin-top: 95%;
-        position: relative;
-    }
     .rating{
         margin-right: 5px;
         margin-left: 5px;
@@ -934,9 +938,4 @@ span{
         padding: 5px;
     }
 }
-
-
-
-
-
 /* tablet styling*/
