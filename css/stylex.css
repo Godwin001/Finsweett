@@ -563,7 +563,6 @@ span{
         height: 70px;
         margin: 1px;
         display: flex;
-        background: #925959;
         justify-content: center;
         align-items: center;
     }
@@ -843,7 +842,6 @@ span{
         height: 80px;
         margin: 1px;
         display: flex;
-        background: #925959;
         justify-content: center;
         align-items: center;
     }
