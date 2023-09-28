@@ -241,7 +241,14 @@ button{
     margin: 1px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
     background: #FfFfFf;
+    justify-content: center;
+    align-items: center;
+}
+.icon-row>div:hover{
+    background-color:  #FF6433 ;
+color: #ffffff;
 }
 .learn-about-us{
     font-size: 15px;
@@ -320,7 +327,8 @@ span{
     width: 200px;
     height: 90%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 10px;
     background: #FfFfFf;
     margin: 7px ;
     align-items: center;
@@ -818,8 +826,6 @@ span{
         font-size: 14px;
         line-height: normal;
     }
-
-
     /* fourth sect */
     #fourthp{
         height: auto;
