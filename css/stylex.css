@@ -524,7 +524,7 @@ span{
         display: flex;
         list-style-type: none;
         border-right: none;
-        border-bottom: 1px solid red;
+        border-bottom: 1px solid #FF6433;
         column-gap: 15px;
         width: 100%;
         padding-bottom: 5px;
@@ -595,6 +595,9 @@ span{
     }
 
     /*third sect*/
+    #thirdl{
+        margin-bottom: 20px;
+    }
     .context>img{
         height: 30px;
         width: 30px;
@@ -701,7 +704,7 @@ span{
     /* universal*/
     .parent{
         height: auto;
-        padding: 20px 0px;
+        padding: 60px 0px;
     }
     .child{
         height: 100%;
@@ -709,9 +712,7 @@ span{
         flex-direction: column;
     }
     .left-item, .right-item{
-        gap: 15px;
         width: 100%;
-        height: 50%;
     }
     button{
         border: 1px solid #FF6433;
@@ -722,12 +723,33 @@ span{
         height: 40px;
         padding: 10px;
     }
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 26px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    h6{
+        font-size: 16px;
+    }
+    p{
+        font-size: 15px;
+    }
     /* end-universal*/
 
      /*rating& working hr @universal*/
     .box-up, .box-down{
         width: 120px;
-        height: 35px;
+        height: 70px;
         left: 0%;
         border-radius: 25px;
     }
@@ -757,6 +779,7 @@ span{
         display: none;
     }
     .service1{
+        flex-direction: column;
         justify-content: flex-start;
         width: 80%;
         height: 60%;
@@ -783,25 +806,20 @@ span{
         margin-bottom: 20px;
     }
     .testimonial1>div>img{
-        height: 15px;
-        width: 15px;
-        border-radius: 50%;
+        height: 30px;
+        width: 30px;
     }
     .testimonial1>p{
         font-size: 20px;
         line-height: 25px;
     }
-
-
     .faq{
         width: 80%;
-        background-color: darkgray;
     }
     .faq>div{
         gap: 10px;
         width: 70%;
         margin-bottom: 15px;
-        background-color: #FFFFFF;
         padding: 10px;
     }
  
