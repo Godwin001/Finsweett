@@ -11,7 +11,7 @@ body{
 }
 /* header styling */
 header{
-   height: 50px;
+   height: 60px;
    width: 100%; 
    display: flex;
    justify-content: center;
@@ -44,9 +44,8 @@ ul.nav{
     column-gap: 10px;
     padding-left: 25px;
     height: 100%;
-}
-div>p{
-    line-height: 15px;
+    justify-content: center;
+    align-items: center;
 }
 .fa-solid {
     border: none;
@@ -68,14 +67,14 @@ div>p{
 
 /* global styling*/
 .parent{
-    height: auto;
+    height: 650px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px;
 }
 .child{
+    gap: 4%;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -83,16 +82,16 @@ div>p{
     height: 80%;
 }
 .left-item{
-    width: 50%;
+    width: 48%;
     display:  flex ;
     flex-direction: column ;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 20px;
+    gap: 10px;
 }
 .right-item{
     height: 100%;
-    width: 50%;
+    width: 48%;
     display:  flex ;
     flex-direction: column ;
     justify-content: flex-start;
@@ -114,10 +113,6 @@ button{
     align-items: flex-start;
     gap: 10px;
  }
-.icon-text>p{
-    position: relative;
-    left: 70px;
-}
 .context{
     display: flex;
     align-items: center;
@@ -131,7 +126,7 @@ button{
 }
 .icon-text>div>p{
     width: 350px;
-    border-left: 2px dotted #FF6433;
+    border-left: 3px dashed #FF6433;
     padding-left: 25px;
     margin-left: 45px;
     font-size: 20px;
@@ -139,20 +134,33 @@ button{
 }
 
 /* first section */
-#firstp{
-    height: 550px;
+
+h1{
+    font-size: 62px;
 }
-#firstl{
-    height: 70%;
-    margin:5% 0% ;
+h2{
+    font-size: 50px;
 }
-.h1-text{
-    font-size: 48px;
+h3{
+    font-size: 46px;
+}
+h4{
+    font-size: 38px;
+}
+h5{
+    font-size: 30px;
+}
+h6{
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
 }
 .right-itemup{
     background-image: url(./Image.png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 50%;
     height: 100%;
     display: flex;
@@ -239,7 +247,7 @@ input{
     font-size: 100%;
     color: #0f0f0f;
     background-color: white;
-    padding: 10px 10px;
+    padding: 15px 10px;
     width: 95%;
     border-radius: 3px;
     border: none;
@@ -255,10 +263,6 @@ input{
     font-size: 20px;
     line-height: normal;
 }
-#thirdr{
-    margin: 5% 0%;
-    height: 80%;
-}
 
 /* fourth section */
 #fourthp{
@@ -267,7 +271,7 @@ input{
     padding: 20px 0px;
 }
 .big-child{
-    margin-top: 3%;
+    margin-top: 5%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -289,8 +293,8 @@ input{
     margin-bottom: 30px;
 }
 .icon-row>div{
-    width: 250px;
-    height: 100px;
+    width: 24%;
+    height: 150px;
     margin: 1px;
     display: flex;
     flex-direction: column;
@@ -312,7 +316,7 @@ input{
 }
 span{
     display: flex;
-    height: 200px;
+    height: 300px;
     width: 100%;
 }
 .third-section-image1{
@@ -333,7 +337,7 @@ span{
     height: 100%; 
 }
 .front-box{
-    height: auto;
+    height: 87%;
     width: 60%;
     background-color: #FF6433;
     display: flex;
@@ -341,11 +345,8 @@ span{
     justify-content: center;
     align-items: flex-start;
     gap: 15px;
-    padding: 20px 20px;
-}
-.front-box>h1{
+    padding: 20px 40px;
     color: white;
-    font-size: 18px;
 }
 #black-bot{
     border: 1px solid black;
@@ -369,7 +370,7 @@ span{
     width: 25%;
     height: 70px; 
 }
-.last-row4>div>h1{
+.last-row4>div>h4{
     color: #661CE7;
 }
 
@@ -407,7 +408,8 @@ span{
     justify-content: center;
 }
 
-/*end of laptop styling*/
+/* sixth sect */
+
 #sixthc{
     background-color: #F2F2F2; 
 }
@@ -415,7 +417,7 @@ span{
     background-color: #F2F2F2; 
     padding-bottom: 20px;
 }
-#sixthc>h1{
+#sixthc>h4{
     text-align: center;
     margin-bottom: 40px;
 }
@@ -424,13 +426,13 @@ span{
     width: 98%;
     background-color: #F2F2F2;
     display: flex;
-    gap: 15px;
+    gap: 5%;
     align-items: center;
     justify-content: center; 
 }
 .testimonial1{
     height: 200px;
-    width: 47%;
+    width: 45%;
     padding: 50px;
     background-color: #FFFFFF;
     display: flex;
@@ -438,36 +440,51 @@ span{
 }
 .testimonial1>div{
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
     margin-bottom: 20px;
 }
 .testimonial1>div>img{
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
+    height: 50px;
+    width: 50px;
 }
-.testimonial1>p{
-    font-size: 20px;
-    line-height: 25px;
+/* seventh sect */
+#seventhp{
+    background: #E2E6E9;
 }
 .faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 80%;
-    background-color: darkgray;
+}
+.faq>h5{
+    margin-bottom: 50px;
 }
 .faq>div{
-    gap: 10px;
-    width: 70%;
-    margin-bottom: 15px;
-    background-color: #FFFFFF;
-    padding: 10px;
-}
-footer{
     gap: 20px;
+    width: 70%;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    padding: 20px 200px 20px 20px;
 }
+
+/* footer */
 #footer{
-    flex-direction: row;
+    height: 450px;
+    color: #FFFFFF;
+    background-color: #1E1B1B;
     display: flex;
+    flex-direction: column;
 }
+#rightfoot{
+    justify-content: center;
+}
+#footspace{
+    margin-left: 200px;
+}
+/*end of laptop styling*/
 
 
 /* mobile styling*/
@@ -787,13 +804,7 @@ footer{
         background-color: #FFFFFF;
         padding: 10px;
     }
-    footer{
-        gap: 20px;
-    }
-    #footer{
-        flex-direction: row;
-        display: flex;
-    }
+ 
 
 }
 /* end mobile styling*/
