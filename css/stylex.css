@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;1,700&display=swap');
 
-
 *{
     margin: 0px;
     padding: 0px ;
@@ -107,34 +106,6 @@ button{
     height: 50px;
     padding: 15px 30px;
 }
-.icon-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
- }
-.context{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-    padding: 0px 30px;
-}
-.context>img{
-    height: 35px;
-    width: 35px;
-}
-.icon-text>div>p{
-    width: 350px;
-    border-left: 3px dashed #FF6433;
-    padding-left: 25px;
-    margin-left: 45px;
-    font-size: 20px;
-    line-height: normal;
-}
-
-/* first section */
-
 h1{
     font-size: 62px;
 }
@@ -156,12 +127,23 @@ h6{
 p{
     font-size: 16px;
 }
+
+/* first section */
+#firstp{
+    padding-top: 30px;
+}
+.contexthr{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
 .right-itemup{
     background-image: url(./Image.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 50%;
+    width: 48%;
     height: 100%;
     display: flex;
     justify-content: flex-start;
@@ -198,9 +180,6 @@ p{
     margin-left: 6px;
     color: aliceblue
 }
-.time>h4{
-    font-size: 15px;
-}
 .time>p{
     font-size: 10px;
 }
@@ -231,7 +210,6 @@ p{
     border-radius: 35px;
     padding: 10px;
 }
-
 /* second section */
 #secondp{
     background: #E2E6E9
@@ -240,8 +218,18 @@ p{
     height: 100%;
     margin: 5% 0%;
 }
-#secondr>h1{
-    width: 400px;
+.icon-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+ }
+.context{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0px 30px;
 }
 input{
     font-size: 100%;
@@ -253,17 +241,22 @@ input{
     border: none;
     margin: 2px 0px;
 }
-
 /* third section */
 #thirdp{
     background-color: #ffffff;
 }
-#thirdl>p{
-    width: 500px;
+.context>img{
+    height: 35px;
+    width: 35px;
+}
+.icon-text>div>p{
+    width: 350px;
+    border-left: 3px dashed #FF6433;
+    padding-left: 25px;
+    margin-left: 45px;
     font-size: 20px;
     line-height: normal;
 }
-
 /* fourth section */
 #fourthp{
     height: auto;
@@ -373,7 +366,6 @@ span{
 .last-row4>div>h4{
     color: #661CE7;
 }
-
 /* fifth section */
 #fifthp{
     background-color: #FAFAFA;
@@ -386,9 +378,7 @@ span{
     align-items: center;
     margin: 20px 0px;
 }
-
 /* sixth section */
-
 #Brands{
     width: 100%;
     height: 300px;
@@ -407,9 +397,7 @@ span{
     align-items: center;
     justify-content: center;
 }
-
 /* sixth sect */
-
 #sixthc{
     background-color: #F2F2F2; 
 }
@@ -481,8 +469,20 @@ span{
 #rightfoot{
     justify-content: center;
 }
-#footspace{
-    margin-left: 200px;
+.foothead{
+    margin: auto;
+    margin-left: auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#Copyright{
+    margin-left: 20%;
+    width: 350px;
+}
+#foot{
+    border: none;
 }
 /*end of laptop styling*/
 
@@ -504,12 +504,9 @@ span{
      .header-div{
         height: 90%;
         width: 90%;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
-        justify-content: flex-start;
-    }
-    .h1-text{
-        font-size: 25px;
+        gap: 10px;
     }
     nav{
         width: 100%;
@@ -557,7 +554,6 @@ span{
         justify-content: space-between;
         align-items: flex-end;
     }
-    
      /*second sect*/
     #secondl{
         height: 100%;
@@ -593,7 +589,6 @@ span{
         width: 90%;
         margin: 2px 0px;
     }
-
     /*third sect*/
     #thirdl{
         margin-bottom: 20px;
@@ -616,7 +611,6 @@ span{
     .context>h1{
         font-size: 20px;
     }
-
     /*fourth sect*/
     #fourthp{
         height: auto;
@@ -645,7 +639,7 @@ span{
         justify-content: center;
     }
     .front-box {
-        height: 80%;
+        height: 74%;
         width: 50%;
         position: static;
         padding: 5% 15px;
@@ -653,8 +647,8 @@ span{
     #black-bot{
         color: #ffffff;
         width: 100%;
-        height: 30x;
-        padding: 0px 7px;
+        height: 30px;
+        padding: 0px 5px;
     }
     span{
         height: 300px;
@@ -680,7 +674,6 @@ span{
         width: 50%;
         height: 50%;
     }
-
     /* fifth sect*/
     #fifthp{
         height: auto;
@@ -700,7 +693,6 @@ span{
         justify-content: center;
         align-items: center;
     }
-
     /* universal*/
     .parent{
         height: auto;
@@ -758,8 +750,8 @@ span{
         border-radius: 25px;
     }
     .time{
-        width: 35px;
-        height: 25px;
+        width: 45px;
+        height: 45px;
         border-radius: 50%;
         margin-right: 3px;
         margin-left: 3px;
@@ -822,8 +814,25 @@ span{
         margin-bottom: 15px;
         padding: 10px;
     }
- 
-
+    /* footer */
+    .foothead{
+        margin-top: 40px;
+        height: auto;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .foothead>h6{
+        margin-bottom: 10px;
+    }
+    #foot{
+        gap: 15px;
+        display: flex;
+        justify-content: center;
+       font-family: 'Playfair Display', serif;
+       flex-direction: column;
+    }
 }
 /* end mobile styling*/
 
@@ -833,17 +842,12 @@ span{
     /*header */
      .header{
         height: 100px;
-        width: 100%; 
-        display: flex;
-        justify-content: center;
         align-items: flex-end;
         position: static;
     }
       .header-div{
         height: 90%;
-        width: 80%;
         gap: 20px;
-        display: flex;
         align-items: flex-start;
         flex-direction: column;
         justify-content: flex-start;
@@ -857,25 +861,35 @@ span{
     .child{
         height: 90%;
     }
-    .right-item{
-        gap: 5px;
-    }
     .left-item{
-        gap: 5px;
+        gap: 15px;
     }
     button{
-        border: 1px solid #FF6433;
-        background-color: #FF6433;
-        border-radius: 12px;
-        color: #ffffff;
-        width: 125px;
-        height: 40px;
+        border-radius: 20px;
+        height: 70px;
         padding: 5px;
     }
     h1{
-        font-size: 20px;
+        font-size: 34px;
     }
-
+    h2{
+        font-size: 33px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    h5{
+        font-size: 22px;
+    }
+    h6{
+        font-size: 18px;
+    }
+    p{
+        font-size: 18px;
+    }
     /* first sect */
     #firstp{
         height: 600px;
@@ -923,21 +937,14 @@ span{
 
     /* third sect */
     input{
-        padding: 5px 5px;
         width: 95%;
         margin: 2px 0px;
         height: 20px;
     }
     .context{
-        display: flex;
-        justify-content: flex-start;
-        gap: 5px;
         padding: 0px 0px;
     }
     .icon-text{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
         gap: 3px;
     }
     .icon-text>p{
@@ -948,17 +955,9 @@ span{
         height: 15px;
         width: 15px;
     }
-    #thirdl>p {
-        width: 100%;
-        font-size: 14px;
-        line-height: normal;
-    }
     .icon-text>div>p {
         width: 80%;
-        padding-left: 5%;
         margin-left: 6%;
-        font-size: 14px;
-        line-height: normal;
     }
     /* fourth sect */
     #fourthp{
@@ -975,17 +974,12 @@ span{
     }
     .icon-row>div{
         width: 30%;
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .learn-about-us{
         margin-bottom: 20px;
     }
     span{
         height: 200px;
-        margin-bottom: 20px;
     }
     .third-section-image1 {
         display: flex;
@@ -1005,15 +999,17 @@ span{
         padding: 0px 10px;
     }
     .last-row4{
-        margin-top: 5px;
         height: 50px;
-        width: 100%;
+        width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     /* fifth sect */
+    #fifthp{
+        height: auto;
+    }
     #fifthc{
         gap: 10px;
     }
@@ -1034,14 +1030,10 @@ span{
 
     /* right-imgup*/
     .box-up, .box-down{
-        width: 120px;
-        height: 35px;
+        width: 200px;
+        height: 100px;
         left: 0%;
         margin-top: 0%;
-        border-radius: 25px;
-    }
-    .service{
-        height: 90%;
         border-radius: 25px;
     }
     .time{
@@ -1060,17 +1052,38 @@ span{
     .rating{
         margin-right: 5px;
         margin-left: 5px;
-        color: gray;
     }
     .rating>p{
         display: none;
     }
-    .service1{
+    .service1 .service{
         justify-content: flex-start;
         width: 80%;
         height: 60%;
         border-radius: 25px;
         padding: 5px;
     }
+    /* sixth sect */
+#sixthp{
+    height: 600px;
+}
+.box{
+    height: auto;
+}
+.testimonial1{
+    height: auto;
+}
+.foothead{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+#footer {
+    height: 300px;
+}
+#Copyright{
+    margin-left: 0%;
+    width: 350px;
 }
 /* tablet styling*/
